@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.form {
+  float: left;
+  margin-left: 112px;
+}
+
+.background {
+  float: right;
+  background-image: url("./assets/img.png");
+  height: 100vh;
+  width: 50%;
+}
+
+.logo {
+  margin-top: 40px;
+}
+
+.text {
+  width: 21.938rem;
+  margin-top: 85px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  color: #1e293b;
+}
+
+.info {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.login {
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1e293b;
+}
+
+.input-info {
+  border-radius: 4px;
+  width: 384px;
+  height: 54px;
+  padding: 16px 35px 16px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+}
+
+.input-info:focus {
+  border: 1px solid purple !important;
+  outline: purple;
+}
+.input-info:hover {
+  border: 1px solid purple;
+}
+
+.visible-eye {
+  background-image: url("./assets/eye.svg");
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  left: 462px;
+  bottom: 158px;
+}
+
+.visible-eye.hide {
+  background-image: url("./assets/eye-off.svg");
+}
+
+.button-send {
+  width: 384px;
+  height: 54px;
+  background-color: #7c3aed;
+  margin-top: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.button-send:hover {
+  background-color: #6a2ed1;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #94a3b8;
+}
+
+.link-inscreva {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7c3aed;
+}
+
+.new {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}

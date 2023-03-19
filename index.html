@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main>
+      <section class="form">
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="'logo" />
+        </div>
+        <div class="text">
+          <h1 class="title">Acesse a plataforma</h1>
+          <h3 class="info">
+            Faça login ou registre-se para começar a construir seus projetos
+            ainda hoje.
+          </h3>
+        </div>
+
+        <div class="login">
+          <form>
+            <label>E-mail</label>
+            <input
+              type="email"
+              placeholder="Digite seu e-mail"
+              class="input-info"
+              required
+            />
+
+            <label>Senha</label>
+            <input
+              type="password"
+              placeholder="Digite sua senha"
+              class="input-info"
+              id="password"
+              required
+            />
+            <div class="visible-eye" onclick="showPassword()"></div>
+
+            <input class="button-send" type="submit" value="Entrar" />
+          </form>
+        </div>
+
+        <p class="new">Ainda não tem uma conta? <a href="#" class="link-inscreva">Inscreva-se</a></p>
+      </section>
+      <section class="background"></section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
