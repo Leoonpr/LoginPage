@@ -10,6 +10,27 @@
   margin-left: 112px;
 }
 
+@media (max-width: 1024px) {
+  .form {
+    margin-left: 32px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+    background-image: none !important;
+  }
+
+  .input-info {
+    width: 80% !important;
+    margin: auto;
+  }
+
+  .form {
+    margin-left: 0 !important;
+  }
+}
+
 .background {
   float: right;
   background-image: url("./assets/img.png");
@@ -62,7 +83,7 @@ form label {
 
 .input-info {
   border-radius: 4px;
-  width: 384px;
+  width: 90%;
   height: 54px;
   padding: 16px 35px 16px 12px;
   border: 1px solid #e2e8f0;
@@ -82,9 +103,9 @@ form label {
   width: 20px;
   height: 20px;
   cursor: pointer;
-  position: absolute;
-  left: 462px;
-  bottom: 158px;
+  position: relative;
+  left: 80%;
+  bottom: 35px;
 }
 
 .visible-eye.hide {
@@ -92,7 +113,7 @@ form label {
 }
 
 .button-send {
-  width: 384px;
+  width: 90%;
   height: 54px;
   background-color: #7c3aed;
   margin-top: 32px;
