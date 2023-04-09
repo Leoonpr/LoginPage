@@ -29,6 +29,10 @@
   .form {
     margin-left: 0 !important;
   }
+
+  form label {
+    margin: auto !important;
+  }
 }
 
 .background {
